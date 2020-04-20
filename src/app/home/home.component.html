@@ -1,0 +1,24 @@
+<mat-toolbar color="primary">
+    <span>
+      <mat-icon (click)="sidenav.toggle()">eco</mat-icon>
+    </span>&nbsp;&nbsp;
+    
+    <div>Play with Time</div>
+    <span style="width: 80%;"></span>
+    <a><mat-icon matTooltip="Stopwatch">timer</mat-icon></a>&nbsp;&nbsp;
+    <a><mat-icon matTooltip="Timer">hourglass_empty</mat-icon></a>&nbsp;&nbsp;
+    <mat-icon matTooltip="Translate">translate</mat-icon>
+ </mat-toolbar>
+
+<mat-card style="height:80%;text-align: center;">
+      <mat-card-title>{{current_time}}</mat-card-title>
+
+</mat-card>
+ 
+<mat-toolbar color="primary">
+  <span class="right">
+    <mat-icon  matTooltip="Need help..?">chat_bubble</mat-icon>
+  </span>&nbsp;&nbsp;
+  
+</mat-toolbar>
+
